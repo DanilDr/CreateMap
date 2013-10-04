@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="./js/map.js"></script>
+
+<style type="text/css">
+body {
+padding: 0px;
+margin: 0px;
+}
+
+body .conteiner {
+	width:95%;
+	height: 800px;
+	overflow: hidden;
+	margin: 0px;
+	margin: auto;
+	border: 1px solid #000;
+}
+
+body .showcoor {
+	position: fixed;
+	top: 0px;
+	padding:5px;
+	border: 1px solid #000; 
+	background-color: #dedede;
+}
+
+body .showcoor {
+
+
+</style>
+
+</head>
+<body>
+<div class="conteiner">
+	<img class="map" src="./img/Msk_blank_new.svg.png" usemap="#moscow" border="0" />
+</div>
+<div class="showcoor">X: <span class="coordx">0000</span> Y: <span class="coordy">0000</span></div>
+<textarea rows="6" cols="150" readonly="readonly"></textarea>
+</body>
+</html>
